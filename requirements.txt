@@ -1,8 +1,11 @@
-Flask==1.0.2            # Vulnerable to several issues in older versions
-Django==1.11.29         # Has multiple known vulnerabilities
-requests==2.19.1        # Known vulnerability in older versions
-PyYAML==3.13            # Vulnerable to arbitrary code execution
-urllib3==1.23           # Multiple security issues in older versions
-jinja2==2.10            # Template injection vulnerabilities
-pillow==5.2.0           # Multiple security issues
-sqlalchemy==1.2.17      # SQL injection vulnerabilities
+Flask==2.2.5            # Vulnerable to several issues in older versions
+Django==4.2.14         # Has multiple known vulnerabilities
+requests==2.32.2        # Known vulnerability in older versions
+PyYAML==4.2b1            # Vulnerable to arbitrary code execution
+urllib3==1.26.19           # Multiple security issues in older versions
+jinja2==3.1.4            # Template injection vulnerabilities
+pillow==10.3.0           # Multiple security issues
+sqlalchemy==1.2.18      # SQL injection vulnerabilities
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
