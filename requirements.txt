@@ -3,6 +3,6 @@ Django==1.11.29         # Has multiple known vulnerabilities
 requests==2.19.1        # Known vulnerability in older versions
 PyYAML==3.13            # Vulnerable to arbitrary code execution
 urllib3==1.23           # Multiple security issues in older versions
-jinja2==2.10            # Template injection vulnerabilities
+jinja2==3.1.5            # Template injection vulnerabilities
 pillow==5.2.0           # Multiple security issues
 sqlalchemy==1.2.17      # SQL injection vulnerabilities
